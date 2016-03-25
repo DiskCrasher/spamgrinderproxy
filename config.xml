@@ -1,0 +1,56 @@
+<!-- SPAMGrinderProxy config.xml file. -->
+
+<config>
+
+<SpamAssassin>
+	<!-- If using SpamAssassin, set to 1, otherwise 0. -->
+	<UseSpamAssassin>1</UseSpamAssassin>
+	<!-- Add SA command-line switches here (-a for autowhitelist). -->
+	<SASwitches>-a</SASwitches>
+</SpamAssassin>
+	
+<SPAMGrinderProxyFilters>
+	<!-- Set to 1 if you want to use SPAMGrinderProxy's internal spam filters, 0 if not. -->
+	<UseSPAMGrinderFilters>0</UseSPAMGrinderFilters>
+	<DNSBL>
+		<!-- Add DNSBL servers below (these need to return an IP for a blacklist match;
+		typically it'll be 127.0.0.2 but any return is considered a spam hit). -->
+		<server>bl.spamcop.net</server>
+		<server>sbl.spamhaus.org</server>
+		<server>spam.dnsrbl.net</server>
+	</DNSBL>
+</SPAMGrinderProxyFilters>
+	
+<POP>
+	<!-- Set to 1 if using POP3 proxy, 0 if not. -->
+	<UsePOP>1</UsePOP>
+	<!-- If SPAMGrinderProxy is running on same machine as e-mail client, set ProxyServer
+	to "localhost".  Otherwise enter the DNS name of machine. -->
+	<ProxyServer>localhost</ProxyServer>
+	<!-- Enter your ISP's outgoing SMTP server here. -->
+	<POPSMTPServer>localhost</POPSMTPServer>
+	<!-- Set the POP3 proxy listening port and outgoing ISP port (normally 110 for both).
+	These can be changed if you want to chain together proxy applications. -->
+	<IncomingPort>110</IncomingPort>
+	<OutgoingPort>110</OutgoingPort>
+</POP>
+
+<SMTP>
+	<!-- Set to 1 if using SMTP proxy, 0 if not. This is for e-mail servers. -->
+	<UseSMTP>0</UseSMTP>
+	<!-- Enter DNS name of the actual SMTP server (or localhost if on same machine). -->
+	<SMTPServer>localhost</SMTPServer>
+	<!-- Set SMTP incoming and outgoing ports.  SPAMGrinderProxy listens to the incoming
+	and connects to the SMTP server using the outgoing. -->
+	<SMTPincomingPort>25</SMTPincomingPort>
+	<SMTPoutgoingPort>25</SMTPoutgoingPort>
+</SMTP>
+
+<!-- FOR DEBUGGING ONLY: Set to 1 to write log files to a temp folder. -->
+<EnableLogging>1</EnableLogging>
+<!-- Enter a path (with trailing backslash) for log files or leave blank for system temp folder. -->
+<LogFilePath></LogFilePath>
+<!-- Enter connection timeout value in seconds (0 for infinite) -->
+<ConnectionTimeout>60</ConnectionTimeout>
+	
+</config>

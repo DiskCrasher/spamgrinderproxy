@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SPAMGrinderProxy", "SPAMGrinderProxy.vbproj", "{6AC279C7-4B00-4483-95C7-F7620583611B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SPAMGrinderProxySetup", "..\SPAMGrinderProxySetup\SPAMGrinderProxySetup.vdproj", "{BD232C06-AC98-4E98-9849-816E65567F72}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{6AC279C7-4B00-4483-95C7-F7620583611B}.Debug.ActiveCfg = Debug|.NET
+		{6AC279C7-4B00-4483-95C7-F7620583611B}.Debug.Build.0 = Debug|.NET
+		{6AC279C7-4B00-4483-95C7-F7620583611B}.Release.ActiveCfg = Release|.NET
+		{6AC279C7-4B00-4483-95C7-F7620583611B}.Release.Build.0 = Release|.NET
+		{BD232C06-AC98-4E98-9849-816E65567F72}.Debug.ActiveCfg = Debug
+		{BD232C06-AC98-4E98-9849-816E65567F72}.Release.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
