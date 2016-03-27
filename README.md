@@ -1,10 +1,4 @@
-<!doctype html>
 <html>
-
-<head>
-<meta charset="UTF-8">
-<title>SPAMGrinderProxy</title>
-</head>
 
 <p align="center"><strong><font size="6">SPAMGrinderProxy<br>
 
