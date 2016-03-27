@@ -1,48 +1,11 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!doctype html>
 <html>
+
 <head>
-
-		
-		
-  <title>SPAMGrinderProxy - Kill that spam!</title>
-  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=windows-1252">
-
-		
-  <meta name="GENERATOR" content="OpenOffice.org 1.1.0  (Win32)">
-
-		
-  <meta name="CREATED" content="20031221;17551889">
-
-		
-  <meta name="CHANGED" content="20040105;19014185">
-
-		
-  <meta name="DESCRIPTION" content="Open source (free) software to help combat spam on POP3 clients and SMTP servers.">
-
-		
-  <meta name="KEYWORDS" content="free, spam, anti, anti-spam, pop, pop3, mail, e-mail, email, open source, GNU, GPL, fight, filter, spam filter, bayesian, delete, kill, remove, advertisements, inbox, junk">
-
-		
-  <meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie3-2nav3-0">
-
-		
-  <meta name="Title" content="SPAMGrinderProxy - Kill that spam!">
-
-		
-  <meta name="Subject" content="SPAMGrinderProxy - Kill that spam!">
-
-		
-  <meta name="ROBOTS" content="ALL">
-
-		
-  <style> <!-- @page { size: 8.5in 11in }
-	--></style>
+<meta charset="UTF-8">
+<title>SPAMGrinderProxy</title>
 </head>
 
-
-	<body bgcolor="#00cccc" dir="ltr" lang="en-US">
-
-		
 <p align="center"><strong><font size="6">SPAMGrinderProxy<br>
 
 				</font></strong><em>"Written by a spam-hater for spam-haters!"</em></p>
